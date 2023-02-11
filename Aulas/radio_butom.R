@@ -41,7 +41,5 @@ server = function(input, output){
   
 }
 
-
-
 shiny::shinyApp(ui, server = server)
   
