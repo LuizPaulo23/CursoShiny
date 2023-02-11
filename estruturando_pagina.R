@@ -18,7 +18,6 @@ server <- function(input, output){
 shiny::shinyApp(ui, server)
 
 # Aula II - Estruturação de página 
-
 ui = shiny::fluidPage(
   
   titlePanel("Estruturação"), # um parâmetro
