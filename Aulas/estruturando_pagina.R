@@ -1,7 +1,6 @@
 rm(list = ls())
 
 # Packages/bibliotecas 
-
 library(shiny)
 library(tidyverse)
 
