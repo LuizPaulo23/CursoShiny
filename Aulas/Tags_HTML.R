@@ -30,7 +30,7 @@ ui <- shiny::fluidPage(
       
       # Tags Div 
       
-      tags$div(style = "background-color: #00BFFF; text-align:center", 
+      tags$div(style = "background-color: red; text-align:center", 
                tags$p("Texto que está dentro da Div")
                ), 
       
