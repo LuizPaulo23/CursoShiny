@@ -1,4 +1,10 @@
+rm(list = ls())
+
 library(shiny)
+# remotes::install_github("datastorm-open/shinymanager")
+# install.packages("shinymanager", dependencies = T)
+# install.packages("RSQLite", dependencies = T)
+# install.packages("scrypt")
 library(shinymanager)
 
 credentials <- data.frame(
