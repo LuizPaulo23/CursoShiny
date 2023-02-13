@@ -1,3 +1,5 @@
+library(shiny)
+
 ui <- fluidPage(
   
   tags$head(
@@ -6,7 +8,7 @@ ui <- fluidPage(
       
       h1 {
         font-family: 'Lobster', cursive;
-        font-weight: 500;
+        font-weight: 300;
         line-height: 1.1;
         color: #48ca3b;
       }
@@ -46,3 +48,6 @@ server <- function(input, output){
 }
 
 shinyApp(ui, server)
+
+
+

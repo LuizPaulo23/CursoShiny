@@ -1,9 +1,13 @@
 #ui <- ui = fluidPage(theme = shinytheme("united"),
 #theme = "mytheme.css",
+
 library(shinythemes)
 library(shiny)
-ui = fluidPage(
-  theme = shinytheme("cerulean"),
+
+
+ui = shiny::fluidPage(
+  #shinythemes::themeSelector(), # Seleção de thema 
+  theme = shinytheme("cyborg"),
   sidebarPanel(
     textInput("txt", "Text input:", "text here"),
     sliderInput("slider", "Slider input:", 1, 100, 30),
@@ -18,6 +22,8 @@ ui = fluidPage(
   )
 )
 
-server = function(input, output) {}
+server = function(input, output) {
+  
+}
 
-shinyApp(ui, server)
+shiny::shinyApp(ui, server)
